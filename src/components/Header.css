@@ -66,4 +66,11 @@
   padding-top: 0.625rem;
   border-radius: 1.25rem;
   text-align: center;
+  transition: all 0.3s;
+}
+
+.user-sign:hover {
+  background-color: #808080;
+  border: 2px solid red;
+  color: black;
 }
