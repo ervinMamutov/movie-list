@@ -1,0 +1,34 @@
+.movie-container {
+  border: 0.1875rem solid #fff;
+  border-radius: 1.25rem;
+  padding-top: 0.625rem;
+  transition: transform 0.3s;
+}
+
+.movie-container:hover {
+  transform: scale(1.1);
+}
+.movie-image {
+  width: 18.375rem;
+  height: 24.4375rem;
+  object-fit: cover;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0.3125rem;
+  padding-right: 0.3125rem;
+  padding-bottom: 0.625rem;
+}
+.movie-title {
+  font-family: Electrolize, serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+.movie-years {
+  color: #ccff00;
+  font-family: Imprima, serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
